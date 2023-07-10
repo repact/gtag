@@ -1,12 +1,90 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Coming soon..</title> 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-   </head>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .test-block {
+      background-color: #1a1a1a;
+      padding: 20px;
+      margin-bottom: 20px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .test-block:before {
+      content: "";
+      position: absolute;
+      top: -10px;
+      left: -10px;
+      right: -10px;
+      bottom: -10px;
+      background: inherit;
+      filter: blur(10px);
+      z-index: -1;
+    }
+
+    .test-block h2 {
+      margin: 0;
+      margin-bottom: 10px;
+    }
+
+    .test-block p {
+      margin: 0;
+      margin-bottom: 10px;
+    }
+
+    .test-block a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ff6b6b;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 3px;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .test-block a:hover {
+      background-color: #ff4f4f;
+      transform: translateY(-2px);
+    }
+
+    .test-block:hover {
+      transform: scale(1.02);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .warning {
+      color: rgb(42, 59, 207);
+      font-weight: bold;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <p class="warning">WARNING: Some of these files might be a virus because they are not checked.</p>
+  <p class="warning">...</p>
+ 
+  </script>
+</body>
+</html>
 
     <title>restock.lol</title>
 <meta content="Coming soon." property="og:title" />
